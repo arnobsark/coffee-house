@@ -111,6 +111,10 @@ nav a:hover {
     align-items: center;
     
 }
+.sp{
+    color: #ffffff;
+    text-shadow: #361b00 1px 1px  10px;
+}
 
 .hero-row{
     position: relative;
