@@ -42,4 +42,14 @@ That's it!
   <img src="./Preview-CoffeeHouse.png" alt="Coffee House Website Preview" width="900">
 </p>
 
+## 🖼️ Image Credits
+
+Some images and icons used in this project are sourced from:
+
+* Magnific — https://magnific.com/
+* TopPNG — https://toppng.com/
+* Flaticon — https://flaticon.com/
+
+All rights to their respective owners.
+
 
