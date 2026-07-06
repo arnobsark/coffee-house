@@ -4,214 +4,319 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
     <title>Home - CoffeeHouse</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 
 <body>
-
-    <header class="header">
-        <p id="menu-icon" class="fas fa-bars"> </p>
-        <a href="#" class="logo">Coffee <i class="fas fa-mug-hot"></i></a>
-        <nav class="navbar">
-            <a href="#Home">Home</a>
-            <a href="#About">About</a>
-            <a href="#Menu">Menu</a>
-            <a href="#Reviews">Reviews</a>
+    <header>
+        <div class="hburger">
+            <p class="fas fa-bars"></p>
+        </div>
+        <div id="logo">
+            <a href="#">
+                <p class="fas fa-mug-hot" id="icon"><span>Coffee</span></p>
+            </a>
+        </div>
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#menu">Catalogs</a>
+            <a href="#about">About</a>
+            <a href="#book">Book Now</a>
         </nav>
-        <a href="#Book">
-            <button type="button" class="button">Book Now</button>
-        </a>
-
+        <div class="button">
+            <a href="">
+                <button class="btn">Sign In</button>
+            </a>
+        </div>
     </header>
     <main>
-        <section class="hero" id="hero">
+        <!-- hero -->
+        <section id="hero" class="hero">
+            <div class="hero-row">
+                <div class="content">
+                    <h2>Experience best coffee flavour</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit possimus neque officiis deleniti
+                        odio ut doloribus veniam delectus sed perspiciatis.</p>
+                    <a href=""><button class="btn">Book Now</button></a>
+                </div>
+                <div class="image">
+                    <img id="hero-cup" src="image/takeaway-cup.png" alt="">
+                </div>
+
+            </div>
+        </section>
+
+        <!-- About -->
+
+        <section id="about" class="about">
+            <h1 class="heading">About Us <span>Why trust us</span></h1>
             <div class="row">
-                <div class="hero-content" id="hero-text">
-                    <h3>fresh coffee in the morning </h3>
-                    <a href="#buy">
-                        <button type="button" class="button">Buy Coffee</button>
-                    </a>
-                </div>
-                <div class="hero-image">
+                <div class="row-image"><img src="image/barista-coffee.jpg" alt="Barista Women"></div>
 
-                    <img src="image/takeaway-cup.png" alt="">
-                </div>
-            </div>
-            <div class="image-pop">
-                <img src="image/takeaway-cup.png" alt="">
-                <img src="image/hot-coffee-mug.png" alt="">
-                <img src="image/cup-with-logo.png" alt="">
-            </div>
-        </section>
-
-        <section class="about" id="about">
-            <h3 class="d-head">About us <span>why choose us</span></h3>
-            <div class="row">
-                <div class="about-image">
-                    <img src="image/barista-coffee.jpg" alt="">
-                </div>
-
-                <div class="about-content">
-                    <h3>what's make our coffee special!</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nemo quos provident dolorem
-                        sequi distinctio neque aut sed labore, veritatis, dignissimos deleniti veniam. Rerum, nam!</p>
-                    <a href="#Book">
-                        <button type="button" class="button">Book Now</button>
-                    </a>
-                    <div class="about-box">
-                        <div class="box">
-                            <img src="image/coffee-beans.png" alt="">
-                            <h3>quality coffee</h3>
+                <div class="row-content">
+                    <h2>Speciality in Us</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem impedit quas facilis vel
+                        consequuntur quisquam quia totam officiis dicta dignissimos!vel consequuntur quisquam quia totam
+                        officiis dicta dignissimos!</p>
+                    <div class="about-block">
+                        <div class="block">
+                            <img src="image/cafe-storefront.png" alt="storefront">
+                            <p>5 Brances</p>
                         </div>
-                        <div class="box">
-                            <img src="image/cafe-storefront.png" alt="">
-                            <h3>our branches</h3>
+                        <div class="block">
+                            <img src="image/coffee-beans.png" alt="beens">
+                            <p>Quality Beans</p>
+
                         </div>
-                        <div class="box">
-                            <img src="image/coffee-truck.png" alt="">
-                            <h3>free delivery</h3>
+                        <div class="block">
+                            <img src="image/coffee-truck.png" alt="truck">
+                            <p>Fast delivery</p>
                         </div>
                     </div>
                 </div>
             </div>
-
         </section>
 
-
-
-        <section class="menu" id="menu">
-            <h2 class="d-head">Our menu <span>top items</span></h2>
-            <div class="box-container">
-                <a href="#" class="box">
-                    <img src="image/cappuccino-top-view.png" alt="">
-                    <div class="content">
-                        <h3>our special coffee</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, sed.</p>
-                        <span>$8.99</span>
+        <!-- Menus -->
+        <section id="menu" class="menu">
+            <h1 class="heading">Our Menu <span>Best Coffee</span></h1>
+            <div class="menu-container">
+                <div class="product">
+                    <img src="image/menu-1.png" alt="Item1">
+                    <div class="menu-c">
+                        <h3>Cappachino</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, modi.</p>
+                        <p class="money">800 ৳ <span>900 ৳</span></p>
                     </div>
-                </a>
-
-                <a href="#" class="box">
-                    <img src="image/latte-art.png" alt="">
-                    <div class="content">
-                        <h3>our special coffee</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, fugit.</p>
-                        <span>$8.99</span>
-                    </div>
-                </a>
-
-                <a href="#" class="box">
-                    <img src="image/americano-cup.png" alt="">
-                    <div class="content">
-                        <h3>our special coffee</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, recusandae.</p>
-                        <span>$8.99</span>
-                    </div>
-                </a>
-
-                <a href="#" class="box">
-                    <img src="image/mocha-cup.png" alt="">
-                    <div class="content">
-                        <h3>our special coffee</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, quas.</p>
-                        <span>$8.99</span>
-                    </div>
-                </a>
-
-                <a href="#" class="box">
-                    <img src="image/macchiato-cup.png" alt="">
-                    <div class="content">
-                        <h3>our special coffee</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, vitae.</p>
-                        <span>$8.99</span>
-                    </div>
-                </a>
-
-                <a href="#" class="box">
-                    <img src="image/flat-white-cup.png" alt="">
-                    <div class="content">
-                        <h3>our special coffee</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, expedita!</p>
-                        <span>$8.99</span>
-                    </div>
-                </a>
-            </div>
-
-        </section>
-        <section class="review" id="review">
-             <h2 class="d-head">Our reviews <span>what customer says</span></h2>
-
-            <div>
-                <img src="image/barista-woman.png" alt="">
-                <div>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, tempore?</p>
-                <h4>Arnob Sarker</h4>
-                <p>satisfied customer</p>
+                <div class="product" id="best">
+                    <p id="badge">Best Selling</p>
+                    <img src="image/menu-2.png" alt="Item2">
+                    <div class="menu-c">
+                        <h3>Latte</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, modi.</p>
+                        <p class="money">700 ৳ <span>800 ৳</span></p>
+                    </div>
+
+                </div>
+                <div class="product">
+
+                    <img src="image/menu-3.png" alt="Item3">
+                    <div class="menu-c">
+                        <h3>Espresso</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, modi.</p>
+                        <p class="money">600 ৳ <span>700 ৳</span></p>
+                    </div>
+
+                </div>
+
+                <div class="product">
+                    <img src="image/menu-4.png" alt="Item4">
+                    <div class="menu-c">
+                        <h3>Mocha</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, modi.</p>
+                        <p class="money">850 ৳ <span>950 ৳</span></p>
+                    </div>
+
+                </div>
+                <div class="product">
+                    <img src="image/menu-5.png" alt="Item5">
+                    <div class="menu-c">
+                        <h3>Americano</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, modi.</p>
+                        <p class="money">650 ৳ <span>750 ৳</span></p>
+                    </div>
+
+                </div>
+                <div class="product">
+                    <img src="image/menu-6.png" alt="Item6">
+                    <div class="menu-c">
+                        <h3>Macchiato</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, modi.</p>
+                        <p class="money">750 ৳ <span>850 ৳</span></p>
+                    </div>
+
+                </div>
             </div>
+
         </section>
 
+        <!-- book -->
+        <section id="book" class="book">
+            <h1 class="heading">Book Now<span>Reserve your seat</span></h1>
+            <div class="book-container">
+                <div class="book-row">
+                    <h2>Calender track</h2>
+                    <div class="calender">
+                        <div class="day">S</div>
+                        <div class="day">M</div>
+                        <div class="day">T</div>
+                        <div class="day">W</div>
+                        <div class="day">T</div>
+                        <div class="day">F</div>
+                        <div class="day">S</div>
+                        <div class="num">1</div>
+                        <div class="num">2</div>
+                        <div class="num">3</div>
+                        <div class="num">4</div>
+                        <div class="num">5</div>
+                        <div class="num">6</div>
+                        <div class="num">7</div>
+                        <div class="num">8</div>
+                        <div class="num">9</div>
+                        <div class="num">10</div>
+                        <div class="num">11</div>
+                        <div class="num">12</div>
+                        <div class="num">13</div>
+                        <div class="num">14</div>
+                        <div class="num off">15</div>
+                        <div class="num">16</div>
+                        <div class="num">17</div>
+                        <div class="num off">18</div>
+                        <div class="num">19</div>
+                        <div class="num off">20</div>
+                        <div class="num">21</div>
+                        <div class="num">22</div>
+                        <div class="num">23</div>
+                        <div class="num off">24</div>
+                        <div class="num">25</div>
+                        <div class="num">26</div>
+                        <div class="num">27</div>
+                        <div class="num">28</div>
+                        <div class="num">29</div>
+                        <div class="num">30</div>
+                        <div class="num">31</div>
+                        <div class="num">32</div>
+                        <div class="num">33</div>
+                        <div class="num">34</div>
+                        <div class="num">35</div>
+                    </div>
+                </div>
+                <div class="book-row">
+                    <h2>Submit Form</h2>
+                    <form action="">
+                        <input class="name" type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                        <input type="number" placeholder="Phone">
+                        <input type="date" placeholder="Date">
+                        <input type="time" placeholder="Time">
+                        <textarea class="input" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                        <button class="btn">Submit</button>
 
-
-
-        <section class="bookform" id="bookform">
-             <h2 class="d-head">Book <span>Now</span></h2>
-            <div>
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <input type="number" placeholder="Number">
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Messege"></textarea>
-                <input type="button" value="submit" class="button">
+                    </form>
+                </div>
             </div>
         </section>
 
     </main>
     <footer>
-        <div class="box-container">
-            <div class="box">
-                <h3>our branches</h3>
-                <a href="#"><i class="fas fa-arrow-right"></i> india</a>
-                <a href="#"><i class="fas fa-arrow-right"></i> USA</a>
-                <a href="#"><i class="fas fa-arrow-right"></i> france</a>
-                <a href="#"><i class="fas fa-arrow-right"></i> africa</a>
-                <a href="#"><i class="fas fa-arrow-right"></i> japan</a>
-            </div>
 
-            <div class="box">
-                <h3>quick links</h3>
-                <a href="#home"><i class="fas fa-arrow-right"></i> home</a>
-                <a href="#about"><i class="fas fa-arrow-right"></i> about</a>
-                <a href="#menu"><i class="fas fa-arrow-right"></i> menu</a>
-                <a href="#review"><i class="fas fa-arrow-right"></i> review</a>
-                <a href="#book"><i class="fas fa-arrow-right"></i> book</a>
-            </div>
-
-            <div class="box">
-                <h3>contact info</h3>
-                <a href="#"><i class="fas fa-phone"></i> +123-456-7890</a>
-                <a href="#"><i class="fas fa-phone"></i> +111-222-3333</a>
-                <a href="#"><i class="fas fa-envelope"></i> coffee@gmail.com</a>
-                <a href="#"><i class="fas fa-envelope"></i> Perú, Lima</a>
-            </div>
-
-            <div class="box">
-                <h3>contact info</h3>
-                <a href="#"><i class="fab fa-facebook-f"></i> facebook</a>
-                <a href="#"><i class="fab fa-twitter"></i> twitter</a>
-                <a href="#"><i class="fab fa-instagram"></i> instagram</a>
-                <a href="#"><i class="fab fa-linkedin"></i> linkedin</a>
-                <a href="#"><i class="fab fa-twitter"></i> twitter</a>
-            </div>
+        <!-- contact floating -->
+        <div class="contact-btn">
+            <p class="fas fa-phone reverse"></p>
+            <p>Contact Us</p>
         </div>
-        <div class="credit">created by <a href="https://github.com/arnobsark" target="_blank"><span>Arnob Sarker</span></a> | all rights reserved</div>
 
+        <section class="footer">
+            <div class="footer-section">
+                <h2>Our Stores</h2>
+                <div class="list">
+                    <div class="list-item">
+                        <p class="fas fa-arrow-right"></p>
+                        <p>Dhaka</p>
+                    </div>
+                    <div class="list-item">
+                        <p class="fas fa-arrow-right"></p>
+                        <p>Chittagong</p>
+                    </div>
+                    <div class="list-item">
+                        <p class="fas fa-arrow-right"></p>
+                        <p>Khulna</p>
+                    </div>
+                    <div class="list-item">
+                        <p class="fas fa-arrow-right"></p>
+                        <p>Rajshahi</p>
+                    </div>
+                    <div class="list-item">
+                        <p class="fas fa-arrow-right"></p>
+                        <p>Sylhet</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h2>Quick Links</h2>
+                <div class="list">
+                    <div class="list-item">
+                        <p class="fas fa-arrow-right"></p>
+                        <p>Hero</p>
+                    </div>
+                    <div class="list-item">
+                        <p class="fas fa-arrow-right"></p>
+                        <p>About Us</p>
+                    </div>
+                    <div class="list-item">
+                        <p class="fas fa-arrow-right"></p>
+                        <p>Menu</p>
+                    </div>
+                    <div class="list-item">
+                        <p class="fas fa-arrow-right"></p>
+                        <p>Book</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h2>Contact Info</h2>
+                <div class="list">
+                    <div class="list-item">
+                        <p class="fas fa-phone reverse"></p>
+                        <p>+880 1234 567890</p>
+                    </div>
+                    <div class="list-item">
+                        <p class="fas fa-envelope"></p>
+                        <p>info@coffee.com</p>
+                    </div>
+                    <div class="list-item">
+                        <p class="fas fa-map-marker-alt"></p>
+                        <p>123 Coffee Street, Dhaka</p>
+                    </div>
+                </div>
+            
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="footer-section">
+                <h2>Follow Us</h2>
+                <div class="list">
+                    <div class="list-item">
+                        <p class="fab fa-facebook-f"></p>
+                        <p>Facebook</p>
+                    </div>
+                    <div class="list-item">
+                        <p class="fab fa-twitter"></p>
+                        <p>Twitter</p>
+                    </div>
+                    <div class="list-item">
+                        <p class="fab fa-instagram"></p>
+                        <p>Instagram</p>
+                    </div>
+                    <div class="list-item">
+                        <p class="fab fa-linkedin-in"></p>
+                        <p>LinkedIn</p>
+                    </div>
+                    <div class="list-item">
+                        <p class="fab fa-pinterest-p"></p>
+                        <p>Pinterest</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="copyright">
+            <p>&copy; 2026 <a href="https://github.com/arnobsark">Arnob Sarker</a>. All rights reserved.</p>
+        </section>
     </footer>
 </body>
 
