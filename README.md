@@ -39,7 +39,7 @@ That's it!
 ## 📷 Preview
 
 <p align="center">
-  <img src="./Priview-CoffeeHouse.png" alt="Coffee House Website Preview" width="900">
+  <img src="./Preview-CoffeeHouse.png" alt="Coffee House Website Preview" width="900">
 </p>
 
 
